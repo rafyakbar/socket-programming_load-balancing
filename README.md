@@ -1,4 +1,3 @@
-
 # Deskripsi Repositori
 
 Repositori ini dibuat untuk memenuhi tugas mata kuliah **Komputasi Jaringan**. Tujuan dari project ini adalah mengimplementasikan sistem load balancing untuk pemrosesan gambar menggunakan arsitektur client-broker-worker.

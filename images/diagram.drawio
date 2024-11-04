@@ -16,10 +16,10 @@
         <mxCell id="R7nked7RxUoi6VM79FbM-6" value="Worker 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="120" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="R7nked7RxUoi6VM79FbM-7" value="Worker 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="R7nked7RxUoi6VM79FbM-7" value="Worker 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="180" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="R7nked7RxUoi6VM79FbM-8" value="Worker 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="R7nked7RxUoi6VM79FbM-8" value="Worker 3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="240" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="R7nked7RxUoi6VM79FbM-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.342;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.035;entryY=0.342;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
