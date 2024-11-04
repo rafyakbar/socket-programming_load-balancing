@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
+  <diagram name="Page-1" id="oOjHo8LuGVAydoVzi2Ua">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="R7nked7RxUoi6VM79FbM-2" value="Client" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="70" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R7nked7RxUoi6VM79FbM-3" value="Broker" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R7nked7RxUoi6VM79FbM-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="80" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="R7nked7RxUoi6VM79FbM-6" value="Worker 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R7nked7RxUoi6VM79FbM-7" value="Worker 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="180" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R7nked7RxUoi6VM79FbM-8" value="Worker 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R7nked7RxUoi6VM79FbM-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.342;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.035;entryY=0.342;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="194.36" as="sourcePoint" />
+            <mxPoint x="277.19999999999993" y="194.36" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R7nked7RxUoi6VM79FbM-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.015;exitY=0.613;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.98;entryY=0.603;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="278.80000000000007" y="205.03999999999996" as="sourcePoint" />
+            <mxPoint x="148.39999999999998" y="204.24" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R7nked7RxUoi6VM79FbM-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.414;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="193" as="sourcePoint" />
+            <mxPoint x="478.72" y="192.36" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R7nked7RxUoi6VM79FbM-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.01;exitY=0.525;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="478.4000000000001" y="206" as="sourcePoint" />
+            <mxPoint x="360" y="206" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R7nked7RxUoi6VM79FbM-13" value="Client mengirim request yang berisi jenis layanan dan gambar dalam bentuk base64" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="105" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R7nked7RxUoi6VM79FbM-14" value="Broker memilih worker dengan load terendah dan forward request ke worker yang dipilih" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="364" y="100" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R7nked7RxUoi6VM79FbM-15" value="Worker memberi response berupa gambar yang telah diproses (enhance/grayscale)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="364" y="220" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R7nked7RxUoi6VM79FbM-16" value="Broker memberi response ke client yang telah diproses oleh worker" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="220" width="110" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
